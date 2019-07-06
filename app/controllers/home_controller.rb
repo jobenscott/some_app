@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-	before_action :authenticate_user!, :dash
+	# before_action :authenticate_user!, :dash
   def dash
   	
   end
